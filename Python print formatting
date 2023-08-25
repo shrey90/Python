@@ -1,0 +1,16 @@
+#Python print formatting
+
+
+username = input("Enter the username: ")
+userage = input("Enter the userage: ")
+
+print("username is " , username)
+print("userage is " , userage)
+
+print (f"username is  {username}")
+print (f"userage is  {userage}")
+print (f"username is {username} and userage is {userage}")
+
+print("username is {}" .format(username))
+print("usergae is {}" .format(userage)) 
+print("username is {} and age is {}" .format(username,userage))
