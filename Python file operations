@@ -1,0 +1,11 @@
+#with in python opens the file and post opening ,it also closes the file once whatever operation you are doing on that file,
+#means file will not be in open() state.
+myfile = open("/Users/shreyshekhar/Desktop/code/file.txt","r")
+In [2]: myfile.read()
+
+
+
+with open("/Users/shreyshekhar/Desktop/code/file.txt","r") as newfil
+    ...: e:
+    ...:     for file in newfile:
+    ...:         print(file.strip())
