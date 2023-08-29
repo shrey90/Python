@@ -1,0 +1,11 @@
+#We need to import re library to search for an expression
+#1- Search function -- Search for the first occurence within the string
+
+import re
+email_id = "shrey@gmail.com"
+
+if re.search(r"shrey", email_id_str):
+    print("The email id contains the string 'shrey'")
+else:
+    print("The email id does not contain the string 'shrey'")
+    
